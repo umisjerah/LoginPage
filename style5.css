@@ -1,0 +1,103 @@
+*{
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+}
+
+body {
+background: linear-gradient(to bottom, rgba(210, 204, 209, 0.932), rgb(216, 52, 191));
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(240, 233, 233);
+}
+
+.login-container {
+background-image: url("C:\Users\Acer\OneDrive\Pictures\Background\l-intro-1658612058.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-box {
+background-color: rgb(211, 80, 211);
+padding: 40px;
+border-radius: 15px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 20px rgba(246, 249, 249, 0.952);
+width: 400px;
+text-align: center;
+}
+
+h2 {
+margin-bottom: 20px;
+}
+
+.input-group {
+margin-bottom: 20px;
+text-align: left;
+}
+
+.input-group label {
+display: block;
+margin-bottom: 5px;
+}
+
+.input-group input {
+width: 100%;
+padding: 15px;
+border-radius: 5px;
+border: solid 2px;
+background-color: rgba(240, 216, 240, 0.932);
+color: rgb(81, 74, 74);
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #a262ec;
+border-radius: 5px ;
+border-radius: 5px;
+color: rgb(44, 34, 34);
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background-color: #196bc9;
+}
+
+.footer {
+margin-top: 30px;
+}
+
+.footer a {
+color: rgb(67, 4, 81);
+text-decoration: underline;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
+
+.footer p {
+margin-top: 20px;
+}
+
+.remember-me {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.remember-me input {
+margin-right: 10px;
+}
